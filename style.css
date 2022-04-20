@@ -1,0 +1,86 @@
+body {
+  background-color: #b5d3ff;
+}
+#app {  
+  background-color: #b5d3ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#calculator {
+  width: 298px;
+  height: 450px;
+  background-color: darkgray;
+  margin: 1rem;
+  border: ridge 4px #85b0ff
+}
+#displayer {
+  background-color: black;
+  height: 4rem;
+}
+#upperDisplay {
+  font-family: 'Orbitron';
+  font-weight: 400;
+  color: white;
+  text-align: right;
+  padding: 0.5rem 0.4rem 0.15rem 0;
+  overflow: clip;
+  font-size: 0.75em;
+}
+#display {
+  font-family: 'Orbitron';
+  font-weight: 500;
+  color: white;
+  text-align: right;
+  padding: 0.14rem 0.4rem;
+  font-size: 1.25rem;
+  overflow: clip;
+}
+#keypad {
+  background-color: black;
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px;
+  height: 370px;
+  padding-left: 2px;
+}
+#keypad > * {
+  font-family: 'Orbitron';
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: #a8c7ff;
+  width: 72px;
+  height: 72px;
+  align-self: flex-start;
+}
+.bigButton {
+  background-color: #a8c7ff;
+  width: 146px;
+  height: 72px;  
+  align-self: flex-start;
+}
+.button:hover, .bigButton:hover {
+  cursor: pointer;
+}
+#equals {
+  background-color: #a8c7ff;
+  height:146px;
+  width: 72px;  
+  padding-top: 0.7rem;
+  position: relative;
+  bottom: 74px;
+  padding: 0;
+  background-color: #3399FF;
+}
+#clear {
+  background-color: #FF5454;
+}
+#sign {
+  text-align: center;
+  font-size: 14px
+}
